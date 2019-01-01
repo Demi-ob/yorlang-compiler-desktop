@@ -1,38 +1,34 @@
-sọpé "iwọ nid" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
-sọpé "iwọ ni" + " ";
+jẹ́kí ago = 15;
+
+ṣé ( ago < 12 )  { 
+    jẹ́kí ìkíni = "e kaaro" ;
+
+} tàbí ṣé ( ago > 12 && ago < 17 )  { 
+    jẹ́kí ìkíni = "e kaasan" ; 
+
+} tàbí { 
+    jẹ́kí ìkíni = "e kaale" ; 
+} 
+
+
+sọpé ìkíni + " " + "aye" ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

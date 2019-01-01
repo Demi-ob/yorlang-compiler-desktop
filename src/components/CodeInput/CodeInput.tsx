@@ -78,7 +78,7 @@ class CodeInput extends React.Component<ICodeInputProps, ICodeInputState> {
             backgroundColor="green"
             labelColor="#fff"
             style={{ margin: "2px" }}
-            label="Download"
+            label="Download code"
             onClick={this.downloadClicked}
           />
           <RaisedButton
