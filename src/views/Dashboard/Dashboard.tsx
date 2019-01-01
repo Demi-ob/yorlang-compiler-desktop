@@ -24,10 +24,10 @@ class Dashboard extends React.Component<IDashboardProps, IDashboardState> {
   render() {
     return (
       <div>
-        <div style={{ height: innerHeight / 2, overflowY: 'auto' }}>
+        <div style={{ height: innerHeight / 2 + 50, overflowY: "auto" }}>
           <CodeInput onCodeEnter={this.onCodeEnter} />
         </div>
-        <div style={{ height: innerHeight / 2, overflowY: 'auto' }}>
+        <div style={{ height: innerHeight / 2 - 50, overflowY: "auto" }}>
           <CodeOutput inputCode={this.state.inputCode} />
         </div>
       </div>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
+  "description": "A desktop electron based compiler for yorlang",
   "author": "Demilade Odetara",
   "email": "bjaiye1@gmail.com",
   "productName": "Yorlang Compiler",
