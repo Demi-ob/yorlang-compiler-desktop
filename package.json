@@ -1,0 +1,57 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "email": "bjaiye1@gmail.com",
+  "productName": "Yorlang Compiler",
+  "main": "public/electron.js",
+  "postinstall": "install-app-deps",
+  "dependencies": {
+    "@types/qs": "^6.5.1",
+    "@types/react-codemirror": "^1.0.1",
+    "axios": "^0.18.0",
+    "electron-is-dev": "^1.0.1",
+    "material-ui": "^0.20.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "qs": "^6.5.2",
+    "react": "^16.3.2",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts-ts": "2.15.1",
+    "yorlang": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js  --linux tar.xz  --win  --ia32 .",
+    "preelectron-pack": "yarn build"
+  },
+  "build": {
+    "appId": "com.example.electron-cra",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/material-ui": "^0.21.2",
+    "@types/node": "^9.6.6",
+    "@types/react": "^16.3.12",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-router-dom": "^4.2.6",
+    "typescript": "^2.8.3",
+    "concurrently": "^4.0.1",
+    "electron": "^3.0.5",
+    "electron-builder": "^20.28.4",
+    "wait-on": "^3.1.0"
+  }
+}

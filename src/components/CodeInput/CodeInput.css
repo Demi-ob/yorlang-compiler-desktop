@@ -1,0 +1,8 @@
+.home-body {
+  padding: 10px;
+  min-height: 200px;
+}
+
+.CodeMirror{
+  height: 500px !important;
+}
