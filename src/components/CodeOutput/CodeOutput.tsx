@@ -84,8 +84,12 @@ class CodeOutput extends React.Component<ICodeOutputProps, ICodeOutputState> {
 
   render() {
     return (
-      <div>
-        <pre style={{ textAlign: "center" }}>{this.state.output}</pre>
+      <div style={{ lineHeight: "20px", padding: "10px" }}>
+        <b>Output</b>
+        <hr />
+        <span>
+          <pre>{this.state.output}</pre>
+        </span>
       </div>
     );
   }

@@ -1,8 +1,9 @@
 {
-  "name": "my-app",
+  "name": "yorlang-desktop-compiler",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
+  "author": "Demilade Odetara",
   "email": "bjaiye1@gmail.com",
   "productName": "Yorlang Compiler",
   "main": "public/electron.js",

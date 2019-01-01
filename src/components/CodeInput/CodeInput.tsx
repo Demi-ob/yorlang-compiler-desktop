@@ -73,7 +73,7 @@ class CodeInput extends React.Component<ICodeInputProps, ICodeInputState> {
           onChange={this.updateCode}
           options={options}
         />
-        <div style={{ margin: "10px" }}>
+        <div>
           <RaisedButton
             backgroundColor="green"
             labelColor="#fff"
@@ -85,7 +85,7 @@ class CodeInput extends React.Component<ICodeInputProps, ICodeInputState> {
             backgroundColor="green"
             labelColor="#fff"
             style={{ margin: "2px" }}
-            label="Build"
+            label="Run"
             onClick={() => this.props.onCodeEnter(this.state.inputCode)}
           />
         </div>
